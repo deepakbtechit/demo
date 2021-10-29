@@ -11,15 +11,15 @@ sourceCompatibility = '11'
 
 repositories {
 	mavenCentral()
-	maven {
-		url "https://github.com/deepakbtechit/demo"
-		credentials {
-			username = 'deebakbtechit'
-			password = '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'
-		}
+}
+scmVersion {
+	repository { Repositorytype = 'git'
+		directory = 'https://github.com/deepakbtechit/demo'
+		repository locationremote = 'master'
+		AuthorizationcustomKey = 'deepakbtechit'
+		customKeyPassword = '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'
 	}
 }
-
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
