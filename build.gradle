@@ -14,7 +14,7 @@ repositories {
 	maven{
 		credentials{
 			username('deepakbtechit')
-			password('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')
+			password('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')
 		}
 	}
 }
