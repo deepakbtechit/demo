@@ -11,9 +11,13 @@ sourceCompatibility = '11'
 
 repositories {
 	mavenCentral()
+	maven{
+		credentials{
+			username('deepakbtechit')
+			password('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')
+		}
+	}
 }
-scmVersion.repository.customUsername='deepakbtechit'
-scmVersion.repository.customPassword='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'
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
