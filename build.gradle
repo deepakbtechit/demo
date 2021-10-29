@@ -13,11 +13,9 @@ repositories {
 	mavenCentral()
 }
 scmVersion {
-	repository { Repositorytype = 'git'
-		directory = 'https://github.com/deepakbtechit/demo'
-		repository locationremote = 'master'
-		AuthorizationcustomKey = 'deepakbtechit'
-		customKeyPassword = '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'
+	repository {
+		customUsername='deepakbtechit'
+		customPassword='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'
 	}
 }
 dependencies {
