@@ -11,12 +11,6 @@ sourceCompatibility = '11'
 
 repositories {
 	mavenCentral()
-	maven{
-		credentials{
-			username('deepakbtechit')
-			password('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')
-		}
-	}
 }
 
 dependencies {
